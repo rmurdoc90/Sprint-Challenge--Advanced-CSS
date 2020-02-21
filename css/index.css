@@ -144,7 +144,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #0c0e14;
 }
 h2 {
   font-size: 3.2rem;
@@ -248,6 +248,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 1.6rem;
+  background-color: #0c0e14;
+  color: white;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home .walk .walk-img {
   width: 46%;
