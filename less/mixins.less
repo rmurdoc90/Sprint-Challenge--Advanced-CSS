@@ -1,1 +1,19 @@
 // Mixins Here
+
+.flexcenter(){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button(@w,@h){
+    font-size:1.6rem;
+    background-color: @ebony-clay;
+    color:white;
+    border-radius: .5rem;
+    width:@w;
+    height:@h;
+    .flexcenter();
+
+
+}
